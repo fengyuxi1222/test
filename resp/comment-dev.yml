@@ -1,0 +1,18 @@
+spring:
+ datasource:
+    driverclassname: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 1234
+    url: jdbc:mysql://localhost:3306/comment?useSSL=false&serverTimezone=UTC&characterEncoding=utf-8
+
+ application:
+   name: comment
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8764
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
