@@ -1,5 +1,4 @@
-﻿server：
-  port: 8777
+﻿
 spring:
   datasource:
       driver-class-name: com.mysql.cj.jdbc.Driver
@@ -22,3 +21,5 @@ management:
 ribbon:
   eureka:
     enabled: true
+server:
+  port: 8763
